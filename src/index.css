@@ -1,3 +1,7 @@
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,64 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  padding: 15px 50px;
+  /* background-color: aqua; */
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 2em;
+  height: 2em;
+}
+
+.nav-button {
+  background-color: transparent;
+  border-width: 0;
+  /* cursor: pointer; */
+}
+
+.nav-button:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #2E3E80;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+
+.login-button {
+  background-color: transparent;
+  display: flex;
+  border-width: 1.5px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: "space-between";
+  padding: 4px 4px;
+  font-size: 12px;
+}
+
+/* .login-button */
+
+.landing-page {
+  display: flex;
+}
+
+.main-bg-image {
+  flex: 1,
 }
